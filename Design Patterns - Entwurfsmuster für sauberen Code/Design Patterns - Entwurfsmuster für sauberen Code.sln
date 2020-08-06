@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design Patterns - Entwurfsmuster für sauberen Code", "Design Patterns - Entwurfsmuster für sauberen Code\Design Patterns - Entwurfsmuster für sauberen Code.csproj", "{24C41643-92C3-4536-9A8C-28F4C3BE0B37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design Patterns - Entwurfsmuster für sauberen Code", "Design Patterns - Entwurfsmuster für sauberen Code\Design Patterns - Entwurfsmuster für sauberen Code.csproj", "{24C41643-92C3-4536-9A8C-28F4C3BE0B37}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programmieraufgabe 1 Factory Method Pattern", "..\Programmieraufgabe 1 Factory Method Pattern\Programmieraufgabe 1 Factory Method Pattern\Programmieraufgabe 1 Factory Method Pattern.csproj", "{A4A0EF19-0E97-48DB-9BEB-A2B62379D553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{23A7BDFD-B2D0-4AA4-B962-4C51B6D2EB8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj", "{23A7BDFD-B2D0-4AA4-B962-4C51B6D2EB8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory Pattern", "Abstract Factory Pattern\Abstract Factory Pattern.csproj", "{39B645FA-09C1-469A-8E6F-8CEB1E76F980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory Pattern", "Abstract Factory Pattern\Abstract Factory Pattern.csproj", "{39B645FA-09C1-469A-8E6F-8CEB1E76F980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonExample", "SingletonExample\SingletonExample.csproj", "{43696957-9526-4F8B-8A83-7AD7B53968AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonChallenge", "SingletonChallenge\SingletonChallenge.csproj", "{B6B0ADF0-A6A2-4955-9848-911A163D415A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{39B645FA-09C1-469A-8E6F-8CEB1E76F980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39B645FA-09C1-469A-8E6F-8CEB1E76F980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39B645FA-09C1-469A-8E6F-8CEB1E76F980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43696957-9526-4F8B-8A83-7AD7B53968AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43696957-9526-4F8B-8A83-7AD7B53968AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43696957-9526-4F8B-8A83-7AD7B53968AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43696957-9526-4F8B-8A83-7AD7B53968AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B0ADF0-A6A2-4955-9848-911A163D415A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B0ADF0-A6A2-4955-9848-911A163D415A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B0ADF0-A6A2-4955-9848-911A163D415A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B0ADF0-A6A2-4955-9848-911A163D415A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
