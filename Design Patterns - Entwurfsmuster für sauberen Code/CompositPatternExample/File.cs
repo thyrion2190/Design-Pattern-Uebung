@@ -12,9 +12,10 @@ namespace CompositPatternExample
             this.Owner = owner;
             this.Name = name;
         }
-        public override void Print()
+
+        public override void Print(string spacing)
         {
-            Console.WriteLine("FileName: {0} Owner: {1}", Name, Owner);
+            Console.WriteLine(spacing + "FileName: {0} Owner: {1}", Name, Owner);
         }
     }
 }

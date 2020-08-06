@@ -19,7 +19,7 @@ namespace CompositPatternExample
             videos.Add(videoOne);
             videos.Add(videoTwo);
 
-            videoTutorial.Print();
+            videoTutorial.Print("");
             
             Console.ReadLine();
         }

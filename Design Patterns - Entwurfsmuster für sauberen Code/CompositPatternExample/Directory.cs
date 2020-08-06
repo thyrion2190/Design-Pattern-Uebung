@@ -12,14 +12,6 @@ namespace CompositPatternExample
         {
             this.Name = name;
         }
-        public override void Print()
-        {
-            Console.WriteLine("Directoryname: " + Name);
-            foreach (FileSystemComponent component in includedFiles)
-            {
-                component.Print();
-            }
-        }
 
         public void Add(FileSystemComponent component)
         {
@@ -34,6 +26,15 @@ namespace CompositPatternExample
         public FileSystemComponent GetFileSystemComponent(int index)
         {
             return includedFiles[index];
+        }
+
+        public override void Print(string spacing)
+        {
+            Console.WriteLine(spacing + "Directoryname: " + Name);
+            foreach (FileSystemComponent component in includedFiles)
+            {
+                component.Print(spacing + "     ");
+            }
         }
     }
 }
