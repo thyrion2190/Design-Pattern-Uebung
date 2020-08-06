@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonExample", "Singlet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonChallenge", "SingletonChallenge\SingletonChallenge.csproj", "{B6B0ADF0-A6A2-4955-9848-911A163D415A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptaPatternExample", "AdaptaPatternExample\AdaptaPatternExample.csproj", "{2CFF08EC-AD2C-462E-9B13-BC1C5B4D8D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatternChallange", "AdapterPatternChallange\AdapterPatternChallange.csproj", "{50A1EAEE-BC0D-4117-8917-1368414D4B52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{B6B0ADF0-A6A2-4955-9848-911A163D415A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B0ADF0-A6A2-4955-9848-911A163D415A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B0ADF0-A6A2-4955-9848-911A163D415A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CFF08EC-AD2C-462E-9B13-BC1C5B4D8D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CFF08EC-AD2C-462E-9B13-BC1C5B4D8D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CFF08EC-AD2C-462E-9B13-BC1C5B4D8D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CFF08EC-AD2C-462E-9B13-BC1C5B4D8D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A1EAEE-BC0D-4117-8917-1368414D4B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A1EAEE-BC0D-4117-8917-1368414D4B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A1EAEE-BC0D-4117-8917-1368414D4B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A1EAEE-BC0D-4117-8917-1368414D4B52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
