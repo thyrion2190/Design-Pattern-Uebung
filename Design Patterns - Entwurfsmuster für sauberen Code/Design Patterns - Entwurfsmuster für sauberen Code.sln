@@ -33,9 +33,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtectionProxyPatternExamp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualProxyPatternExample", "VirtualProxyPatternExample\VirtualProxyPatternExample.csproj", "{D0235978-6D26-4747-9197-67C38C0A2AEB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behaviour atterns", "Behaviour atterns", "{20B27265-A502-4CF1-9376-1C2831F7259F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behaviour Patterns", "Behaviour Patterns", "{20B27265-A502-4CF1-9376-1C2831F7259F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPatternExample", "CommandPatternExample\CommandPatternExample.csproj", "{C9162B83-2B5D-483A-934B-963060895DC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPatternExample", "CommandPatternExample\CommandPatternExample.csproj", "{C9162B83-2B5D-483A-934B-963060895DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPatternExample", "IteratorPatternExample\IteratorPatternExample.csproj", "{6D8C0FF7-E2FB-4464-B163-6B605A0C0AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPatternExample", "MediatorPatternExample\MediatorPatternExample.csproj", "{D8267EB5-7892-4628-9A5E-554654F28443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPatternExample", "MementoPatternExample\MementoPatternExample.csproj", "{761AA335-E188-46E5-A0C9-0FC0E9C8F8F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +105,18 @@ Global
 		{C9162B83-2B5D-483A-934B-963060895DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9162B83-2B5D-483A-934B-963060895DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9162B83-2B5D-483A-934B-963060895DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8C0FF7-E2FB-4464-B163-6B605A0C0AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8C0FF7-E2FB-4464-B163-6B605A0C0AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8C0FF7-E2FB-4464-B163-6B605A0C0AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8C0FF7-E2FB-4464-B163-6B605A0C0AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8267EB5-7892-4628-9A5E-554654F28443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8267EB5-7892-4628-9A5E-554654F28443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8267EB5-7892-4628-9A5E-554654F28443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8267EB5-7892-4628-9A5E-554654F28443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761AA335-E188-46E5-A0C9-0FC0E9C8F8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761AA335-E188-46E5-A0C9-0FC0E9C8F8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761AA335-E188-46E5-A0C9-0FC0E9C8F8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761AA335-E188-46E5-A0C9-0FC0E9C8F8F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +134,9 @@ Global
 		{FDFD6A0C-F7C4-44D9-970A-DBABC9F6F737} = {EC40B68F-0D06-4A77-9F76-D1BDB6A20618}
 		{D0235978-6D26-4747-9197-67C38C0A2AEB} = {EC40B68F-0D06-4A77-9F76-D1BDB6A20618}
 		{C9162B83-2B5D-483A-934B-963060895DC2} = {20B27265-A502-4CF1-9376-1C2831F7259F}
+		{6D8C0FF7-E2FB-4464-B163-6B605A0C0AF1} = {20B27265-A502-4CF1-9376-1C2831F7259F}
+		{D8267EB5-7892-4628-9A5E-554654F28443} = {20B27265-A502-4CF1-9376-1C2831F7259F}
+		{761AA335-E188-46E5-A0C9-0FC0E9C8F8F5} = {20B27265-A502-4CF1-9376-1C2831F7259F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42FB76D6-B51F-4C9B-A256-545442326969}

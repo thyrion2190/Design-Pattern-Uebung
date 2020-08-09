@@ -6,5 +6,7 @@ namespace CommandPatternExample
 {
     public interface ITransactionCommand
     {
+        void Execute();
+        void Undo();
     }
 }
