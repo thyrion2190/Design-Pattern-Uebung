@@ -37,19 +37,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behaviour Patterns", "Behav
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPatternExample", "CommandPatternExample\CommandPatternExample.csproj", "{C9162B83-2B5D-483A-934B-963060895DC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPatternExample", "IteratorPatternExample\IteratorPatternExample.csproj", "{6D8C0FF7-E2FB-4464-B163-6B605A0C0AF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPatternExample", "IteratorPatternExample\IteratorPatternExample.csproj", "{6D8C0FF7-E2FB-4464-B163-6B605A0C0AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPatternExample", "MediatorPatternExample\MediatorPatternExample.csproj", "{D8267EB5-7892-4628-9A5E-554654F28443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPatternExample", "MediatorPatternExample\MediatorPatternExample.csproj", "{D8267EB5-7892-4628-9A5E-554654F28443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPatternExample", "MementoPatternExample\MementoPatternExample.csproj", "{761AA335-E188-46E5-A0C9-0FC0E9C8F8F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPatternExample", "MementoPatternExample\MementoPatternExample.csproj", "{761AA335-E188-46E5-A0C9-0FC0E9C8F8F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternExample", "ObserverPatternExample\ObserverPatternExample.csproj", "{A7B247EB-C54E-48AC-B0C6-504E69DB8FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPatternExample", "ObserverPatternExample\ObserverPatternExample.csproj", "{A7B247EB-C54E-48AC-B0C6-504E69DB8FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternExample", "StrategyPatternExample\StrategyPatternExample.csproj", "{DF0A1D21-F0B6-41C6-8DC2-959E7A33A0E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPatternExample", "StrategyPatternExample\StrategyPatternExample.csproj", "{DF0A1D21-F0B6-41C6-8DC2-959E7A33A0E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPatternExample", "TemplateMethodPatternExample\TemplateMethodPatternExample.csproj", "{B20A16E1-569C-41E5-9686-45000BC11443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodPatternExample", "TemplateMethodPatternExample\TemplateMethodPatternExample.csproj", "{B20A16E1-569C-41E5-9686-45000BC11443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePatternExample", "StatePatternExample\StatePatternExample.csproj", "{C6C2F3CF-0349-4674-8EAA-A783EA4AD81D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePatternExample", "StatePatternExample\StatePatternExample.csproj", "{C6C2F3CF-0349-4674-8EAA-A783EA4AD81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{C2E4BD74-A443-4FBE-A877-4882713F7563}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{C6C2F3CF-0349-4674-8EAA-A783EA4AD81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6C2F3CF-0349-4674-8EAA-A783EA4AD81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6C2F3CF-0349-4674-8EAA-A783EA4AD81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E4BD74-A443-4FBE-A877-4882713F7563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E4BD74-A443-4FBE-A877-4882713F7563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E4BD74-A443-4FBE-A877-4882713F7563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E4BD74-A443-4FBE-A877-4882713F7563}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +171,7 @@ Global
 		{DF0A1D21-F0B6-41C6-8DC2-959E7A33A0E9} = {20B27265-A502-4CF1-9376-1C2831F7259F}
 		{B20A16E1-569C-41E5-9686-45000BC11443} = {20B27265-A502-4CF1-9376-1C2831F7259F}
 		{C6C2F3CF-0349-4674-8EAA-A783EA4AD81D} = {20B27265-A502-4CF1-9376-1C2831F7259F}
+		{C2E4BD74-A443-4FBE-A877-4882713F7563} = {02284F0B-3229-4726-8F66-68E5A2B18738}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42FB76D6-B51F-4C9B-A256-545442326969}
